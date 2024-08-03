@@ -1,10 +1,3 @@
-// 1. Check the todays recording class.
-// 2. Implement the adding the user inputs value on the webpage with local storage.
-// 3. Store all the data inside local storage.
-// 4. Implement the task completion and deleting the task with javascript and local storage.
-// 5. Try to check in how to update the todo.
-
-
 
 let addButton = document.querySelector("#add-Button");
 let inputTodo = document.querySelector("#input");
