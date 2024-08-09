@@ -76,8 +76,8 @@ function renderTodos() {
         <input class="me-4" id="check-box" ${checkorNot} type="checkbox" onchange="updateTodo('${todo.keyTodo}')">
         <h6 class="m-3 auto  ${todo.isDone? "text-decoration-line-through" : ''}" id="checkTodo" >${todo.keyTodo}</h6>
         <div style="position:relative; left:180px;">
-        <img id="editTodo" onclick="editTodos('${todo.keyTodo}')" type="button"  data-bs-toggle="modal" data-bs-target="#exampleModal" src="pen.png">
-        <img onclick="deletTodo('${todo.keyTodo}')" src="trash.png">
+        <img id="editTodo" onclick="editTodos('${todo.keyTodo}')" type="button"  data-bs-toggle="modal" data-bs-target="#exampleModal" src="https://static.vecteezy.com/system/resources/previews/019/552/595/non_2x/sign-up-icon-signup-square-box-on-transparent-background-free-png.png">
+        <img onclick="deletTodo('${todo.keyTodo}')" src="https://img.icons8.com/?size=100&id=102350&format=png&color=000000">
         </div>
         </div>`;
         storeContainer.innerHTML += htmlCode;
